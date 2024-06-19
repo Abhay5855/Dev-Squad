@@ -1,3 +1,15 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+
+  "rules": {
+    "no-trailing-spaces": "error",
+    "consistent-return": "error",
+    "no-console": "error",
+    "no-unused-vars": "warn",
+    "no-undef": "warn"
+  },
+
+  "languageOptions": {
+    "ecmaVersion": "latest"
+  }
 }
